@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Bunking</title>
+    <link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src=""></a>
+            
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="MENU.html">FRANCHISES</a></li>
+                    <li><a href="public/register.html">STAY HERE</a></li>
+                </ul> 
+            </div> 
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+        </section>
+
+<!-------content-------->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Experience your home with a professional touch</h1>
+            <p>Adventure Bunking, an esteemed hostel category, is synonymous with professionalism and excellence. Its renowned culinary expertise, top-tier amenities, and unmatched service quality combine to offer travelers an extraordinary and unforgettable stay experience.
+                What truly sets Adventure Bunking apart, however, is its dedicated team of staff members. Trained to anticipate and fulfill guests' needs, they ensure that every aspect of your stay is met with efficiency and genuine warmth. Adventure Bunking doesn't just provide accommodations; it crafts an environment where guests can create lasting memories, making it a preferred choice for those seeking a higher level of hospitality.
+            </p>
+            <a href="public/register.html" class="hero-btn red-btn">Stay Here</a>
+    
+        </div>
+        <div class="about-col">
+            <img src="hackpic/aboutside.jpg">
+        </div>
+
+    </div>
+    
+
+</section>
+
+
+<!-----------about------>
+<section class="footer">
+    <h4>Contact Us</h4>
+    <p></p>
+    <div class="icons">
+        <a href="https://www.facebook.com"><i class="fa fa-facebook"></i><img src="images1/facebook.png" alt="Facebook"></a>
+        <a href="https://twitter.com"><i class="fa fa-twitter"></i><img src="images1/twitter.png" alt="Twitter"></a>
+        <a href="https://www.instagram.com"><i class="fa fa-instagram"></i><img src="images1/instagram.png" alt="Instagram"></a>
+        <a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i><img src="images1/linkedin.png" alt="Linkedin"></a>
+    </div>
+</section>
+
+
+
+
+
+<!----------javascript for toggle menu-------->
+<script>
+    var navlinks=document.getElementById("navlinks");
+    function showMenu(){
+        navlinks.style.right="0";
+    }
+    function hideMenu(){
+        navlinks.style.right="-300px";
+    }
+</script> 
+
+    
+</body>
+</html>

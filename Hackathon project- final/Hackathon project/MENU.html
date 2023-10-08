@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENU</title>
+    <link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src=""></a>
+            
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="MENU.html">FRANCHISE</a></li>
+                    <li><a href="public/register.html">REGISTER/LOGIN</a></li>
+                </ul> 
+            </div> 
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>FRANCHISE</h1>
+        </section>
+</body>
+
+<body>
+    <section class="background">
+        <section class="m1">
+            <h1>FOOD MENU</h1>
+            
+        <div class="row">
+            <div class="course-col">
+                <h3>Breakfast</h3>
+                <p> <ul>
+                    <li>Mon-idli</li>
+                    <li>Tuesday-Wada</li>
+                    <li>Wednesday-Maggie</li>
+                    <li>Thursday-Dosa</li>
+                    <li>Friday-Bonda</li>
+                    <li>Saturday-upma</li>
+                    <li>Sunday-puri</li>
+                  </ul>
+                </p>
+    
+            </div>
+            <div class="course-col">
+                <h3>Lunch</h3>
+                <p><ul>
+                    <li>Mon-FriedRice</li>
+                    <li>Tuesday-Tomato</li>
+                    <li>Wednesday-Potato</li>
+                    <li>Thursday-Chicken</li>
+                    <li>Friday-Egg</li>
+                    <li>Saturday-Pappu</li>
+                    <li>Sunday-Panner</li>
+                  </ul>
+                </p>
+    
+            </div>
+            <div class="course-col">
+                <h3>Deserts</h3>
+                <p> <ul>
+                    <li>Monday-Icecream</li>
+                    <li>Tuesday-Cake</li>
+                    <li>Wednesday-Fruit Salad</li>
+                    <li>Thursday-Juices</li>
+                    <li>Friday-Custard</li>
+                    <li>Saturday-Pastry</li>
+                    <li>Sunday-Gulab Jamun</li>
+                  </ul>
+                </p>
+    
+            </div>
+    
+        </div>
+        </section>
+        <section class="m2">
+                <h1>AMENITIES</h1>
+                
+            <div class="row">
+                <div class="course-col">
+                    <h3 class="campus-col">HYDERABAD</h3>
+                    <p> <ul>
+                            <li>Wifi</li>
+                            <li>Water purifier</li>
+                            <li>Bed room</li>
+                            <li>Dining</li>
+                            <li>wash room</li>
+                            <li>tv</li>
+                        </ul>
+                    </p>
+        
+                </div>
+                <div class="course-col">
+                    <h3>BANGLORE</h3>
+                    <p>
+                        <ul>
+                            <li>Wifi</li>
+                            <li>Water purifier</li>
+                            <li>Bed room</li>
+                            <li>Dining</li>
+                            <li>wash room</li>
+                            <li>tv</li>
+                          </ul>
+                    </p>
+        
+                </div>
+                <div class="course-col">
+                    <h3>MUMBAI</h3>
+                    <p>
+                        <ul>
+                            <li>Wifi</li>
+                            <li>Water purifier</li>
+                            <li>Bed room</li>
+                            <li>Dining</li>
+                            <li>wash room</li>
+                            <li>tv</li>
+                          </ul>
+                    </p>
+        
+                </div>
+        
+            </div>
+        </section>
+        
+
+    </section>
+    
+   
+    
+    
+  </body>
+
+
+
+
+
+
+
+<!-----------aboutt------>
+<section class="footer">
+    <h4>Contact Us</h4>
+    <p></p>
+    <div class="icons">
+        <a href="https://www.facebook.com"><i class="fa fa-facebook"></i><img src="images1/facebook.png" alt="Facebook"></a>
+        <a href="https://twitter.com"><i class="fa fa-twitter"></i><img src="images1/twitter.png" alt="Twitter"></a>
+        <a href="https://www.instagram.com"><i class="fa fa-instagram"></i><img src="images1/instagram.png" alt="Instagram"></a>
+        <a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i><img src="images1/linkedin.png" alt="Linkedin"></a>
+    </div>
+</section>
+
+
+
+
+
+<!----------javascript for toggle menu-------->
+<script>
+    var navlinks=document.getElementById("navlinks");
+    function showMenu(){
+        navlinks.style.right="0";
+    }
+    function hideMenu(){
+        navlinks.style.right="-300px";
+    }
+</script> 
+
+    
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Animation</title>
+    <style>
+        @keyframes textAnimation {
+            0% {
+                transform: scale(1);
+                opacity: 0;
+            }
+            100% {
+                transform: scale(1.2);
+                opacity: 1;
+            }
+        }
+
+        .m1 h1 {
+            animation: textAnimation 2s infinite;
+        }
+        .m2 h1{
+            animation: textAnimation 2s infinite;
+        }
+        .m3 h1{
+            animation: textAnimation 2s infinite;
+        }
+    </style>
+</head>
+<body> 
+    <!-----------about------>
+<section class="footer">
+    <h4>Contact Us</h4>
+    <p></p>
+    <div class="icons">
+        <a href="https://www.facebook.com"><i class="fa fa-facebook"></i><img src="images1/facebook.png" alt="Facebook"></a>
+        <a href="https://twitter.com"><i class="fa fa-twitter"></i><img src="images1/twitter.png" alt="Twitter"></a>
+        <a href="https://www.instagram.com"><i class="fa fa-instagram"></i><img src="images1/instagram.png" alt="Instagram"></a>
+        <a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i><img src="images1/linkedin.png" alt="Linkedin"></a>
+    </div>
+</section>
+</body>
+</html>
